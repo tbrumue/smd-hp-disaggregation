@@ -1,0 +1,22 @@
+name: hp_disagg
+channels:
+  - defaults
+  - conda-forge
+  - apple
+dependencies:
+  - python=3.8
+  - pip=21.3
+  - tensorflow-deps
+  - numpy==1.22.3
+  - pandas==2.0.3
+  - scikit-learn==1.2.1
+  - matplotlib==3.7.2
+  - seaborn==0.12.2
+  - jupyter==1.0.0
+  - pylint==2.16.2
+  - notebook==7.0.8
+  - tqdm==4.65.0
+  - pip:
+    - tensorflow-macos==2.13.0
+    - tensorflow==2.13.0
+    - keras==2.13.1
