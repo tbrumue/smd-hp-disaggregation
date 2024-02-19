@@ -6,7 +6,6 @@ channels:
 dependencies:
   - python=3.8
   - pip=21.3
-  - tensorflow-deps
   - numpy==1.22.3
   - pandas==2.0.3
   - scikit-learn==1.2.1
@@ -17,6 +16,5 @@ dependencies:
   - notebook==7.0.8
   - tqdm==4.65.0
   - pip:
-    - tensorflow-macos==2.13.0
     - tensorflow==2.13.0
     - keras==2.13.1
